@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body{
+
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 100%;
+    min-height: 100vh;
+    flex:auto;
+    display: flex;
+    flex-direction: row;
+}
+.article{
+    flex:2;
+    overflow-y: auto;
+}
+
+.aside{
+    flex:1;
+    overflow-y: auto;
+}
+/*
+.container{
+    border: 2px solid red;
+    width: 50%;
+    height: 50vh;
+    display: flex
+}*/
